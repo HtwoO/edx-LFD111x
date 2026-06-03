@@ -1,0 +1,46 @@
+# ==========================================
+# TL-Verilog & Makerchip Generated Artifacts
+# ==========================================
+# Do not track the SystemVerilog/Verilog outputs compiled from your .tlv source
+*.v
+*.sv
+*.gen.v
+*.gen.sv
+
+# Makerchip temporary output files and visual debug blocks
+*.out
+*.out.v
+*.out.sv
+viz/
+M4_*.tlv
+
+# ==========================================
+# Simulation & Waveforms (Verilator, Icarus, etc.)
+# ==========================================
+*.vcd
+*.evcd
+*.wdb
+*.gtkw
+obj_dir/
+*.log
+*.dmp
+*.csrc
+
+# ==========================================
+# Common EDA Tools (Vivado, Quartus, etc.)
+# ==========================================
+# Build and temporary directories
+build*/
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+
+# ==========================================
+# OS & Editor configurations
+# ==========================================
+.DS_Store
+.vscode/
+*.swp
+*~
