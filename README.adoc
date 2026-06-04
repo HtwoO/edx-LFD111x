@@ -1,0 +1,5 @@
+= edx LFD111x Building a RISC-V CPU Core course exercise =
+
+== Reference ==
+https://docs.riscv.org/reference/home/[RISC-V Ratified Specifications Library]
+
